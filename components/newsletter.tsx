@@ -1,7 +1,7 @@
 export default function Newsletter() {
   return (
     <section>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-10" id="cta--email">
 
         {/* CTA box */}
         <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
@@ -23,8 +23,8 @@ export default function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
-              <p className="text-purple-200 text-lg">Join our newsletter to get top news before anyone else.</p>
+              <h3 className="h3 text-white mb-2">Seja um dos primeiros</h3>
+              <p className="text-purple-200 text-lg">Registre-se para ser um dos primeiros a saber quando nosso produto estiver no mercado.</p>
             </div>
 
             {/* CTA form */}
